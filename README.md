@@ -4,7 +4,7 @@
 
 ## Demo
 
-https://emrezeytun.com.tr/ref/trello-entegration/
+https://emrezeytun.com.tr/ref/trello-integration/
 
 ## How to import your own Trello Board
 
