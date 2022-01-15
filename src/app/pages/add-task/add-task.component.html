@@ -1,0 +1,17 @@
+<div class="col-md-12 mt-4">
+    <div class="form-group">
+      <input [(ngModel)]="cardName" name="cardItem" type="text" class="form-control" id="cardName" placeholder="Enter a Task">
+    </div>
+  </div>
+  <div class="col-md-12 mt-2">
+    <div class="cards">
+        <div (click)="getCardListId(card.id)" [ngClass]="{'active' : cardListId == card.id}" [id]="card.id" *ngFor="let card of cards" class="card">
+          <p>{{card.name}}</p>
+        </div>
+      </div>
+  </div>
+  <div class="col-md-12 mt-2">
+    <div class="form-group">
+        <button (click)="saveCard()" class="btn btn-custom btn-white w-100">Save</button>
+      </div>
+  </div>

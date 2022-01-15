@@ -1,0 +1,23 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0.2rem;
+    margin:0;
+    li {
+        margin-right: 1rem;
+        padding: 0;
+        transition: .5s;
+        a {
+            text-decoration: none;
+            color: #FAEEE7;
+            transition: .6s;
+            font-weight: 500;
+        }
+        &:hover {
+            a {
+                color: #325288;
+            }
+        }
+    }
+}

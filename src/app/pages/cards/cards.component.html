@@ -1,0 +1,45 @@
+<div class="cards">
+  <div (click)="getListByCardId(card.id)" [id]="card.id" *ngFor="let card of cards" class="card">
+    <p>{{card.name}}</p>
+  </div>
+</div>
+
+
+
+<ag-grid-angular *ngIf="rowData" class="ag-theme-balham" [rowData]="rowData" [columnDefs]="columnDefs"
+  (gridReady)="onGridReady($event)" [frameworkComponents]="frameworkComponents" ></ag-grid-angular>
+
+<div class="popup">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="form-group">
+        <input [(ngModel)]="cardItemName" name="cardItem" type="text" class="form-control" id="cardItem" placeholder="Enter email">
+      </div>
+    </div>
+
+    <div class="col-md-12 mt-3">
+        <div class="form-group">
+            <button (click)="saveCard()" class="btn btn-custom btn-white w-100">Save</button>
+          </div>
+          <div class="form-group">
+            <button (click)="closeForm()" class="btn btn-custom-close btn-white w-100">Close</button>
+          </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="movePopup">
+    <div class="row">
+      <div class="col-md-12">
+          <p>Where do you want to move this card?</p>
+        <div class="cards">
+            <div (click)="moveCard(card.id)" *ngFor="let card of cards" class="card">
+              <p>{{card.name}}</p>
+            </div>
+          </div>
+      </div>
+  
+   
+    </div>
+  </div>

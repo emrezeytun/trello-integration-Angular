@@ -1,0 +1,39 @@
+
+.popup {
+    left: -200rem;
+    border-radius: 1rem;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #24A19C;
+    padding: 3rem;
+    bottom: 2rem;
+    width: 40vw;
+    transition: .5s all;
+}
+
+.popup.active {
+    bottom: 2rem;
+    left: 50%;
+}
+
+.movePopup {
+    left: -200rem;
+    border-radius: 1rem;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #24A19C; 
+    padding: 3rem;
+    bottom: 2rem;
+    transition: .5s all;
+    p {
+        color: #24A19C;
+    }
+}
+
+
+.movePopup.active {
+    bottom: 2rem;
+    left: 50%;
+}
+
