@@ -1,4 +1,4 @@
-## Preview
+# Preview
 
 <img src="https://github.com/emrezeytun/trello-entegration-Angular/blob/main/trello-entegration.gif">
 
