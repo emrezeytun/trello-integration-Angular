@@ -1,6 +1,11 @@
-# Preview
+## Preview
 
 <img src="https://github.com/emrezeytun/trello-entegration-Angular/blob/main/trello-entegration.gif">
+
+## How to import your own Trello Board
+
+You can just change `token` , `key` and `idBoard` on  `app/environments/environment.ts`
+You can see your token, key and board id on Trello developer page. 
 
 ## Application
 
