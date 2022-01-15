@@ -1,6 +1,6 @@
 ## Preview
 
-<img src="https://github.com/emrezeytun/trello-entegration-Angular/blob/main/trello-entegration.gif">
+<img src="https://github.com/emrezeytun/trello-integration-Angular/blob/main/trello-integration.gif">
 
 ## Demo
 
