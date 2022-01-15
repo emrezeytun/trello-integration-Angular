@@ -1,4 +1,8 @@
-# Application
+## Preview
+
+<img src="https://github.com/emrezeytun/trello-entegration-Angular/blob/main/trello-entegration.gif">
+
+## Application
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
