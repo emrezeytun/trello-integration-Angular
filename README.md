@@ -8,7 +8,7 @@ https://emrezeytun.com.tr/ref/trello-entegration/
 
 ## How to import your own Trello Board
 
-You can just change `token` , `key` and `idBoard` on  `app/environments/environment.ts`
+You can just change `token` , `key` and `idBoard` on  `src/environments/environment.ts`
 You can see your token, key and board id on Trello developer page. 
 
 ## Application
